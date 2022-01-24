@@ -64,7 +64,7 @@ body {
   background: var(--white);
   background-repeat: no-repeat;
   background-position: right 1.75rem bottom 1.75rem;
-  border-top: 5px solid;
+  border-top: 4px solid;
   border-radius: 0.5rem;
   box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
   height: 222px;
@@ -117,6 +117,7 @@ body {
 @media screen and (min-width: 767px) {
   .heading__title {
     font-size: 2.25rem;
+    line-height: 50px;
   }
 }
 
@@ -145,6 +146,10 @@ body {
     height: 250px;
     padding: 2rem;
     width: 350px;
+  }
+
+  .card .card__heading {
+    margin-bottom: 6px;
   }
 
   .card-3 {
